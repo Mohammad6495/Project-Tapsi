@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Yekan";
+    src: url("../fonts/Yekan.woff");
+}
+
+:root {
+    --colororange: #FF5722;
+    --colorwhite: #ffffff;
+    --colorgry: #232A39;
+    --colorblacklow: #545454;
+    --colorblac: #000000;
+    --colorblue: #0065DC;
+}
+
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:"Yekan" !important;
+}
+a {
+    text-decoration: none;
+}
+.pos-relative {
+    position: relative !important;
+}
